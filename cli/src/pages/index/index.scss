@@ -1,0 +1,12 @@
+@function pxToRem($px) {
+  @return $px / 16px * 1rem;
+}
+.appHeader {
+  width: 100%;
+  height: pxToRem(70px);
+  background-color: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+  background-image: url("../images/sizi.jpg");
+  // background: ;
+}

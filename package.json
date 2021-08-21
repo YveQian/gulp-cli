@@ -1,0 +1,20 @@
+{
+  "name": "glup-cli-yves",
+  "version": "1.0.3",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "gulp-init": "./bin/gulp-init.js"
+  },
+  "author": "Yves",
+  "license": "ISC",
+  "devDependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^8.1.0",
+    "download-git-repo": "^3.0.2",
+    "ora": "^5.4.1"
+  }
+}
